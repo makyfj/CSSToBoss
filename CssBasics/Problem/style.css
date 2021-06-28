@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.boxes > div {
+  display: block-inline;
+}
+
+.first-box {
+  background: #aa3aa3;
+  margin: 40px;
+  border: 10px green solid;
+  text-align: center;
+  padding: 40px 0px;
+  height: 300px;
+  width: 50%;
+  display: none;
+}
+
+.second-box {
+  background: #aa3aa3;
+  padding: 20px 0;
+  margin: 10px;
+  border: 10px green solid;
+  text-align: center;
+  padding: 40px 0px;
+  height: 300px;
+  width: 50%;
+}
+
+.second-box:hover {
+  color: yellow;
+  text-decoration: underline;
+  border-radius: 30px;
+}
