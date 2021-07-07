@@ -21,10 +21,9 @@ body {
   display: flex;
   height: 1600px;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  align-content: center;
+  justify-content: flex-start;
 }
 
 .item-1 {
@@ -71,6 +70,8 @@ body {
   border: 5px solid black;
   margin: 10px;
   width: 350px;
+  flex-basis: 10%;
+  flex-shrink: 0;
 }
 
 .item-6 {
@@ -79,6 +80,6 @@ body {
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
+  flex-shrink: 0;
   width: 350px;
 }
-
