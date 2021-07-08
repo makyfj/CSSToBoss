@@ -179,7 +179,9 @@
 
 .modal {
   position: fixed;
-  display: none;
+  opacity: 1;
+  transform: translateY(-3rem);
+  transition: opacity 200ms ease-out, transform 800ms ease-out;
   z-index: 200;
   top: 20%;
   left: 30%;

@@ -182,7 +182,8 @@ main {
 /* Mobile */
 .mobile-nav {
   position: fixed;
-  display: none;
+  transform: translateX(-100%);
+  transition: transform 0.5s sliding;
   z-index: 101;
   top: 0;
   left: 0;
@@ -233,6 +234,12 @@ main {
   border: #a1a1a1;
   background: #ccc;
   color: #a1a1a1;
+}
+
+.open {
+  display: block !important;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .button:focus {
